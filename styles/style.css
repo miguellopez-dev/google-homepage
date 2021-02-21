@@ -10,7 +10,65 @@ html {
 	font-size: 62.5%;
 }
 
+body {
+	font-family: arial, sans-serif;
+	color: #222;
+	font-size: 1.4rem;
+}
+
 /****** NAV BAR ******/
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.6rem;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem 1rem;
+}
+
+.nav li {
+	margin: 0 1rem;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #222;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+.nav__right {
+	display: flex;
+	align-items: center;
+}
+.nav__app-icons {
+	margin-left: 1.5rem;
+	position: relative;
+}
+.nav__app-icons a {
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav__app-icons:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+}
+.nav__app-icons svg {
+	width: 2.4rem;
+	height: 2.4rem;
+	display: block;
+	cursor: pointer;
+}
 
 /****** MAIN PAGE******/
 .wrapper {
