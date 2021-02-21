@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/****** NAV BAR ******/
+
+/****** MAIN PAGE******/
+.wrapper {
+	width: 50%;
+	margin: 12rem auto;
+	text-align: center;
+}
+
+.logo {
+	margin-bottom: 2rem;
+}
+
+.logo img {
+	width: 50%;
+}
+.search {
+	width: 100%;
+	border-radius: 20px;
+	border: 0.5px solid rgba(0, 0, 0, 0.87);
+}
+.search-bar {
+	padding: 1rem;
+	width: 80%;
+	border-style: none;
+}
