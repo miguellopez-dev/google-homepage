@@ -89,10 +89,16 @@ body {
 	width: 100%;
 	height: 44px;
 	border-radius: 20px;
-	border: 0.5px solid rgba(0, 0, 0, 0.87);
+	border: 0.5px solid #9aa0a6;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+}
+
+.search:hover,
+.search:focus,
+.search:active {
+	box-shadow: 0px 0 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .search__magnify {
@@ -119,4 +125,6 @@ body {
 	padding: 1rem;
 	width: 80%;
 	border-style: none;
+	outline: none;
+	font-size: 1.5rem;
 }
