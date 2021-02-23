@@ -14,6 +14,7 @@ body {
 	font-family: arial, sans-serif;
 	color: #222;
 	font-size: 1.4rem;
+	min-width: 400px;
 }
 
 /****** NAV BAR ******/
@@ -72,7 +73,7 @@ body {
 
 /****** MAIN PAGE******/
 .wrapper {
-	width: 80%;
+	width: 90%;
 	max-width: 580px;
 	margin: 5rem auto;
 	text-align: center;
@@ -104,7 +105,7 @@ body {
 .search__magnify {
 	width: 20px;
 	height: 20px;
-	color: #9aa0a6;
+	fill: #9aa0a6;
 }
 
 .search__magnify svg {
@@ -127,4 +128,23 @@ body {
 	border-style: none;
 	outline: none;
 	font-size: 1.5rem;
+}
+
+.btns {
+	width: auto;
+	margin-top: 4rem;
+}
+
+.btns__click {
+	padding: 1rem 2rem;
+	background-color: #f8f9fa;
+	text-decoration: none;
+	color: #222;
+	border-radius: 3px;
+	border: 1px solid #f8f9fa;
+}
+
+.btns__click:hover {
+	border: 1px solid rgb(0 0 0 / 10%);
+	box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
