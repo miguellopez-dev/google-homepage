@@ -72,6 +72,10 @@ body {
 }
 
 /****** MAIN PAGE ******/
+
+main {
+	margin-top: 5%;
+}
 .wrapper {
 	width: 90%;
 	max-width: 580px;
