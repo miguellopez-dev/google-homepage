@@ -49,7 +49,7 @@ body {
 	align-items: center;
 }
 .nav__app-icons {
-	margin-left: 1.5rem;
+	margin-left: 1rem;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -248,10 +248,15 @@ footer {
 
 	.footer__left {
 		order: 1;
-		margin-bottom: 2rem;
 	}
 
 	.footer__right {
 		order: 2;
+	}
+}
+
+@media screen and (max-width: 597px) {
+	.footer__left {
+		margin-bottom: 2rem;
 	}
 }
