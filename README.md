@@ -1,6 +1,6 @@
 # Google-homepage project built for The Odin Project
 
-![Google Homepage](./rec/google.screenshot.jpg)
+![Google Homepage](./rec/google-screenshot.jpg)
 
 # Objective
 
