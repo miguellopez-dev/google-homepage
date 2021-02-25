@@ -51,8 +51,10 @@ body {
 .nav__app-icons {
 	margin-left: 1.5rem;
 	position: relative;
+	display: flex;
+	justify-content: center;
 }
-.nav__app-icons a {
+.nav__icon {
 	width: 4rem;
 	height: 4rem;
 	display: flex;
@@ -60,15 +62,34 @@ body {
 	justify-content: center;
 }
 
-.nav__app-icons:hover {
+.nav__icon:hover {
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 50%;
 }
-.nav__app-icons svg {
+.nav__icon svg {
 	width: 2.4rem;
 	height: 2.4rem;
 	display: block;
 	cursor: pointer;
+}
+
+.nav__profile-img {
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__profile-img:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+}
+
+.nav__profile-img img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
 }
 
 /****** MAIN PAGE ******/
